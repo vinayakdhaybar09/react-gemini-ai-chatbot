@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.chatbot-comp {
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.avatar-section {
+  padding: 20px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 10px;
+}
+.chatbot-image {
+  height: 50px;
+  width: 50px;
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.avatar-info {
+}
+
+.avatar-label {
+  color: var(--text-color);
+  font-size: 12px;
+}
+
+.avatar-title {
+  color: var(--text-color);
+  font-size: large;
+  font-weight: bold;
+}
+
+.chatbot-coversation-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  row-gap: 20px;
+}
+
+.chatbot-coversation {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  overflow-y: auto;
+}
+
+.chatbot-coversation::-webkit-scrollbar {
+  display: none;
+}
+
+.conversation-start-msg {
+  font-size: 12px;
+  color: var(--primary-color);
+  text-align: center;
+  width: 70%;
+  align-self: center;
+  line-height: 16px;
+}
+
+.chatbot-bot-reply {
+  background-color: var(--primary-color);
+  max-width: 70%;
+  color: var(--text-color);
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  width: fit-content;
+  line-height: 22px;
+
+}
+
+.chatbot-user-reply {
+  background-color: var(--secondary-color);
+  max-width: 70%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  align-self: flex-end;
+  color: var(--primary-color);
+  font-size: 14px;
+  line-height: 22px;
+
+}
+
+.chatbot-input-box {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  border: 1.5px solid var(--primary-color);
+  border-radius: 10px;
+  padding: 8px;
+  margin-top: auto;
+}
+.chatbot-input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+  padding: 6px 10px;
+  resize: none;
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.chatbot-input::-webkit-scrollbar {
+  display: none;
+}
+
+.chatbot-enter-btn {
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+  font-size: 24px;
+  padding: 6px 8px;
+}
+
+.chatbot-enter-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  cursor: pointer;
+}
