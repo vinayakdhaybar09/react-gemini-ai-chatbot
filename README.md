@@ -1,4 +1,4 @@
-# React AI Chatbot
+# React AI Chat bot
 
 React AI Chatbot is a React component package that allows developers to easily integrate a chatbot powered by Google's Gemini AI model into their client websites for help desk purposes, queries, and more.
 
@@ -14,13 +14,13 @@ React AI Chatbot is a React component package that allows developers to easily i
 Install react-ai-chatbot with npm
 
 ```bash
-npm install react-ai-chatbot
+npm install react-ai-chat-bot
 ```
 
 Install react-ai-chatbot with yarn
 
 ```bash
-yarn add react-ai-chatbot
+yarn add react-ai-chat-bot
 ```
 
 ## Basic usage
@@ -35,7 +35,7 @@ To use the React AI Chatbot component, simply import it into your React applicat
 
 ```javascript
 import React from "react";
-import { ReactAiChatBot } from "react-ai-chatbot";
+import { ReactAiChatBot } from "react-ai-chat-bot";
 
 const MyChatbot = () => {
   const geminiApiKey = "YOUR_GEMINI_API_KEY";

@@ -8,7 +8,7 @@ export default defineConfig({
   output: {
     dir: "dist",
     format: "es",
-    name: "react-ai-chatbot",
+    name: "react-ai-chat-bot",
   },
   external: ["react", "react-dom"],
   plugins: [
