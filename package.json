@@ -8,8 +8,22 @@
   "scripts": {
     "build": "npx rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "react",
+    "chatbot",
+    "ai",
+    "google",
+    "gemini"
+  ],
+  "author": "Vinayak Dhaybar <vinayakdhaybar09@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vinayakdhaybar09"
+  },
+  "bugs": {
+    "url": "https://github.com/vinayakdhaybar09/react-ai-chatbot/issues"
+  },
+  "homepage": "https://github.com/vinayakdhaybar09/react-ai-chatbot",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
