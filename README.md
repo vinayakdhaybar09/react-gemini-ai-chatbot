@@ -39,10 +39,12 @@ import { ReactAiChatBot } from "react-ai-chatbot";
 
 const MyChatbot = () => {
   const geminiApiKey = "YOUR_GEMINI_API_KEY";
+  const trainingData = [{}]
 
   return (
     <ReactAiChatBot
       geminiApiKey={geminiApiKey}
+      trainingData={trainingData}
       // Add other props as needed
     />
   );
