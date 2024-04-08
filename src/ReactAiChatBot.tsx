@@ -257,8 +257,8 @@ const styles: { [key: string]: CSSProperties } = {
     fontSize: "14px",
     width: "fit-content",
     lineHeight: "22px",
-    textAlign:"left"
-
+    textAlign: "left",
+    overflowWrap: "anywhere",
   },
   chatbotUserReply: {
     backgroundColor: "var(--secondary-color)",
@@ -269,7 +269,7 @@ const styles: { [key: string]: CSSProperties } = {
     color: "var(--primary-color)",
     fontSize: "14px",
     lineHeight: "22px",
-    textAlign:"left"
+    textAlign: "left",
   },
   chatbotInputBox: {
     display: "flex",

@@ -21,9 +21,9 @@
     "url": "https://github.com/vinayakdhaybar09"
   },
   "bugs": {
-    "url": "https://github.com/vinayakdhaybar09/react-ai-chatbot/issues"
+    "url": "https://github.com/vinayakdhaybar09/react-gemini-ai-chatbot/issues"
   },
-  "homepage": "https://github.com/vinayakdhaybar09/react-ai-chatbot",
+  "homepage": "https://github.com/vinayakdhaybar09/react-gemini-ai-chatbot",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
