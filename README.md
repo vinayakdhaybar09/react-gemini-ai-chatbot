@@ -11,13 +11,13 @@ React AI Chatbot is a React component package that allows developers to easily i
 
 ## Installation
 
-Install react-ai-chatbot with npm
+Install react-gemini-ai-chatbot with npm
 
 ```bash
 npm install react-gemini-ai-chatbot
 ```
 
-Install react-ai-chatbot with yarn
+Install react-gemini-ai-chatbot with yarn
 
 ```bash
 yarn add react-gemini-ai-chatbot
